@@ -1,0 +1,31 @@
+section{
+    /* background-color: rgba(255,99,71,0.2); */
+    max-width: fit-content;
+  }
+  
+  h1{
+  
+    text-align: center;
+    padding: 40px;
+    font-size: 30px;
+  }
+  
+  p{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5rem;
+    padding: 0 100px;
+    text-align: justify;
+    margin-bottom: 15px;
+  }
+  
+  h2{
+    padding: 0 100px;
+    margin-bottom: 15px;
+    color: rgb(42, 2, 2);
+  }
+  
+  .img1{
+    width: 300px;
+    margin-left: 520px;
+  }
+  

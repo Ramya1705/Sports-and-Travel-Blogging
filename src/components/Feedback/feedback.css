@@ -1,0 +1,235 @@
+/* 
+
+.container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+  }
+  
+  .form-group input:focus,
+  .form-group select:focus,
+  .form-group textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 12px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .social-menu {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .social-menu h1 {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+  
+  .social-menu ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .social-menu ul li {
+    display: inline-block;
+  }
+  
+  .social-menu ul li a {
+    color: #555;
+    font-size: 30px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .social-menu ul li a:hover {
+    color: #007bff;
+  }
+   */
+   /* thankyou.css */
+
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  
+  .container {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
+                0 6px 20px rgba(0, 122, 204, 0.5),
+                0 8px 30px rgba(0, 200, 150, 0.3); 
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 500px;
+  }
+  
+  .container h2 {
+    color: #003366;
+    margin-bottom: 20px;
+  }
+  
+  /* Form Styles */
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #003366;
+  }
+  
+  .form-group input,
+  .form-group select,
+  .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+  }
+  
+  .form-group textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .form-group button {
+    background-color: #0066cc;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-group button:hover {
+    background-color: #005bb5;
+  }
+  
+  /* Social Media Menu */
+  .social-menu {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  .social-menu h1 {
+    color: #003366;
+    margin-bottom: 20px;
+  }
+  
+  .social-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+  
+  .social-menu li {
+    display: inline;
+  }
+  
+  .social-menu a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: #eeeeee;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    color: #003366;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .social-menu a:hover {
+    background-color: #003366;
+    color: #ffffff;
+  }
+  
+  .social-menu svg {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+  }
+  
+  .social-menu a[href*="facebook"] {
+    color: #3b5998;
+  }
+  
+  .social-menu a[href*="twitter"] {
+    color: #1da1f2;
+  }
+  
+  .social-menu a[href*="youtube"] {
+    color: #ff0000;
+  }
+  
+  .social-menu a[href*="instagram"] {
+    color: #c13584;
+  }
+  
+  .social-menu a[href*="pinterest"] {
+    color: #e60023;
+  }
+  

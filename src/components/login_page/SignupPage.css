@@ -1,0 +1,84 @@
+/* SignupPage.css */
+/* body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0f7fa; /* Light background color */
+
+  
+  .signup-container {
+     padding: 50px;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
+                0 6px 20px rgba(0, 122, 204, 0.5),
+                0 8px 30px rgba(0, 200, 150, 0.3); /* Multi-color shadow */width: 300px;
+                width: 300px;
+                padding: 50px;
+                background-color: #f0f8ff;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
+                            0 6px 20px rgba(0, 122, 204, 0.5),
+                            0 8px 30px rgba(0, 200, 150, 0.3); /* Multi-color shadow with a hint of ocean blue */
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+  }
+  
+  .signup-container h2 {
+    color: #007acc;
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #005b99;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b3cde0;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .form-group input:focus {
+    outline: none;
+    border-color: #007acc;
+    box-shadow: 0 0 5px rgba(0, 122, 204, 0.5);
+  }
+  
+  .signup-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007acc;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Arial', sans-serif;
+    margin-top: 10px;
+  }
+  
+  .signup-button:hover {
+    background-color: #005b99;
+  }
+  
+  .error-message {
+    color: red;
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'Arial', sans-serif;
+  }
+  

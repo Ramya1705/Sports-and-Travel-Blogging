@@ -1,0 +1,139 @@
+/* Classic and Elegant Styles */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f8f9fa;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1),
+                0 6px 20px rgba(0, 122, 204, 0.5),
+                0 8px 30px rgba(0, 200, 150, 0.3); 
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none;
+    /* color: #3498db; */
+    color: #fff;
+  }
+  
+  a:hover {
+    color: #2980b9;
+  }
+  
+  .bg-blue-500 {
+    background-color: #3498db;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .bg-blue-500:hover {
+    background-color: #2980b9;
+    color: #fff;
+  }
+  
+  .grid {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .grid-cols-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .md\:grid-cols-2 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  
+  .bg-white {
+    background-color: #ffffff;
+  }
+  
+  .shadow-md {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rounded-lg {
+    border-radius: 8px;
+  }
+  
+  .overflow-hidden {
+    overflow: hidden;
+  }
+  
+  .w-full {
+    width: 100%;
+  }
+  
+  .h-48 {
+    height: 12rem;
+  }
+  
+  .object-cover {
+    object-fit: cover;
+  }
+  
+  .p-4 {
+    padding: 20px;
+  }
+  
+  .text-xl {
+    font-size: 1.25rem;
+    color: #34495e;
+  }
+  
+  .font-semibold {
+    font-weight: 600;
+  }
+  
+  .text-gray-600 {
+    color: #7f8c8d;
+  }
+  
+  .text-blue-500 {
+    color: #3498db;
+  }
+  
+  .text-blue-500:hover {
+    color: #2980b9;
+  }
+  
+  .mb-2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1rem;
+  }
+  
+  .mb-6 {
+    margin-bottom: 1.5rem;
+  }
+  
+  .inline-block {
+    display: inline-block;
+  }

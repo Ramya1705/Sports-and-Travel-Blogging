@@ -1,0 +1,28 @@
+.blog-posts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.post {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.post img {
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.post h2 {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.post p {
+  color: #555;
+}
